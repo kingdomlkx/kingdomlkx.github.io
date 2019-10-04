@@ -1,0 +1,11 @@
+.tail_navigation_bar{
+  position: relative;
+}
+.tail_navigation_bar .left{
+  float: left;
+  left:30px;
+}
+.tail_navigation_bar .right{
+  float: right;
+  right:30px;
+}

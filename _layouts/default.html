@@ -7,6 +7,10 @@ Jekyll integration by Chris Bobbe | chrisbobbe.github.io
 -->
 <html>
 	{%- include head.html -%}
+	<!--
+	我的设计与导入的css
+	-->
+	<link rel="stylesheet" href="{{- 'assets/css/my-design.css' | relative_url -}}"
 	<body>
 		{{- content -}}
 		{%- include footer.html -%}

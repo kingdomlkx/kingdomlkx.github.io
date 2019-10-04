@@ -1,7 +1,7 @@
 ---
 title: 打造个人博客网站
 auther: 雁引愁心去
-layout: post-09-11
+layout: post
 ---
 
 ---

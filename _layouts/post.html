@@ -7,6 +7,7 @@ layout: default
 <div id="main">
 	<!-- Post -->
 	<article class="shade-two">
+
 	  <div class="container">
 			<header>
 				<h2>{{- page.title -}}</h2>
@@ -14,5 +15,23 @@ layout: default
 			</header>
 	    {{- content -}}
 	  </div>
+
+		<div class="tail_navigation_bar">
+			<ul>
+				{% assign former = page.previous %}
+					{% if former %}
+						<li class="tail_navigation_bar left">
+							<a href="{{ former.url}}"> 上一页 {{ former.title }}</a>
+						</li>
+					{% endif %}
+				{% assign next = page.next %}
+					{% if next %}
+						<li class="tail_navigation_bar right">
+							<a href="{{ next.url }}"> 下一页 {{ next.title }}</a>
+						</li>
+					{% endif %}
+			</ul>
+		</div>
+
 	</article>
 </div>
