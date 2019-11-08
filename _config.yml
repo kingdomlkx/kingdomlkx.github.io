@@ -61,5 +61,8 @@ google_analytics:
 # The following settings are NECESSARY for the Prologue theme to run:
 theme: jekyll-theme-prologue
 collections:
-  - sections
-  - Cisco-1
+   sections:
+   Cisco-1:
+    output: true
+   plan:
+    output: true
