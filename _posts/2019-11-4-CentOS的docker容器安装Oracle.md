@@ -1,5 +1,5 @@
 ---
-title: CentOS的docker容器安装Oracle
+title: docker容器安装Oracle
 auther: 雁引愁心去
 layout: post
 ---
