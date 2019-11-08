@@ -2,6 +2,7 @@
 title: docker容器安装Oracle
 auther: 雁引愁心去
 layout: post
+order: 12
 ---
 
 本周上课老师开始上Oracle数据库课,然后花了一个上午的时间讲如何安装Oracle......  
